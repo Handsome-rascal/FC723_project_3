@@ -1,0 +1,11 @@
+Function ListDivisors(gcd): Defines the function with one parameter, 'gcd', which is the greatest common divisor of two integers for which the divisors are to be listed.
+
+    divisors = []: Initializes an empty list to hold the divisors of 'gcd'.
+
+    for i from 1 to gcd inclusive: Iterates through each number from 1 up to the value of 'gcd' to check if it is a divisor.
+
+        if gcd mod i == 0: Checks if 'gcd' is divisible by 'i' without leaving a remainder.
+
+            divisors.append(i): If 'i' is a divisor of 'gcd', it is added to the list of divisors.
+
+    return divisors: Once the loop completes, the function returns the list of all divisors of 'gcd'.
